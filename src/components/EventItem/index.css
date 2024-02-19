@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.eventItem-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.eventItem-image {
+  width: 250px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+.active-tab {
+  border-style: solid;
+  border-color: #2dd4bf;
+  border-width: 1px;
+}
+.eventItem-name {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.eventItem-location {
+  color: #ffffff;
+  margin-top: 5px;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.active-image-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
